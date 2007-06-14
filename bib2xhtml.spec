@@ -1,5 +1,5 @@
 %define name	bib2xhtml
-%define version	2.23
+%define version	2.26
 %define release	%mkrel 1
 
 %define bstdir /usr/share/texmf/bibtex/bst/bib2xhtml
@@ -12,7 +12,7 @@ Source:		http://www.spinellis.gr/sw/textproc/bib2xhtml/%{name}-%{version}.tar.bz
 License:	GPL 
 Group:		Publishing
 Url:		http://www.spinellis.gr/sw/textproc/bib2xhtml/
-Requires:	tetex
+Requires:	tetex, perl
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
@@ -27,7 +27,6 @@ reproduced. Some postprocessing is performed by Perl code.
 %setup -q
 # fix encoding
 perl -pi -e 'tr/\r//d' *.html *.bib bib2xhtml
-
 
 %build
 
