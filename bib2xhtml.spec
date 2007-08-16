@@ -1,6 +1,6 @@
 %define name	bib2xhtml
 %define version	2.26
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 %define bstdir /usr/share/texmf/bibtex/bst/bib2xhtml
 
@@ -8,11 +8,12 @@ Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Summary:	A program for converting BibTeX files into XHTML 1.0
-Source:		http://www.spinellis.gr/sw/textproc/bib2xhtml/%{name}-%{version}.tar.bz2
 License:	GPL 
 Group:		Publishing
 Url:		http://www.spinellis.gr/sw/textproc/bib2xhtml/
-Requires:	tetex, perl
+Source:		http://www.spinellis.gr/sw/textproc/bib2xhtml/%{name}-%{version}.tar.bz2
+Requires:	tetex
+Requires:	perl(PDF::API2)
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
