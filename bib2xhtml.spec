@@ -15,6 +15,7 @@ Source:		http://www.spinellis.gr/sw/textproc/bib2xhtml/%{name}-%{version}.tar.bz
 Requires:	tetex
 Requires:	perl(PDF::API2)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 bib2xhtml is a program that converts BibTeX files into HTML
