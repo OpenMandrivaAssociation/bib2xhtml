@@ -1,6 +1,6 @@
 %define name	bib2xhtml
-%define version	2.26
-%define release	%mkrel 4
+%define version	2.30
+%define release	%mkrel 1
 
 %define bstdir /usr/share/texmf/bibtex/bst/bib2xhtml
 
