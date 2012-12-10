@@ -57,3 +57,48 @@ rm -rf %{buildroot}
 %{_mandir}/man1/bib2xhtml.1.*
 %{bstdir}/*
 
+
+
+%changelog
+* Mon Dec 20 2010 Guillaume Rousse <guillomovitch@mandriva.org> 2.35-2mdv2011.0
++ Revision: 623434
+- update to new version 2.35
+
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 2.31-2mdv2011.0
++ Revision: 610065
+- rebuild
+
+* Mon Feb 08 2010 Guillaume Rousse <guillomovitch@mandriva.org> 2.31-1mdv2010.1
++ Revision: 502469
+- update to new version 2.31
+
+* Thu Jul 16 2009 Guillaume Rousse <guillomovitch@mandriva.org> 2.30-1mdv2010.0
++ Revision: 396683
+- update to new version 2.30
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 2.26-4mdv2009.0
++ Revision: 243235
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 2.26-2mdv2008.1
++ Revision: 135829
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Fri Aug 17 2007 Guillaume Rousse <guillomovitch@mandriva.org> 2.26-2mdv2008.0
++ Revision: 64662
+- fix perl dependency (close #32293)
+
+* Thu Jun 14 2007 Lev Givon <lev@mandriva.org> 2.26-1mdv2008.0
++ Revision: 39787
+- Update to 2.26.
+
+
+* Tue Jun 06 2006 Guillaume Rousse <guillomovitch@mandriva.org> 2.23-1mdv2007.0
+- New release 2.23
+
+* Tue Sep 20 2005 Guillaume Rousse <guillomovitch@mandriva.org> 2.20-1mdk
+- contributed by  Lev Givon (<lev@columbia.edu>)
+
